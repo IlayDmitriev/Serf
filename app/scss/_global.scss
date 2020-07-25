@@ -128,3 +128,79 @@ h3{
         }
     }
 }
+
+
+
+
+.quantity {
+    display: inline-block;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+  {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number]
+  {
+    -moz-appearance: textfield;
+  }
+  
+  .quantity input {
+    width: 35px;
+    height: 42px;
+    display: block;
+    padding-left: 20px;
+    border: none;
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    color: #fff;
+  }
+  
+  .quantity input:focus {
+    outline: 0;
+  }
+  
+  .quantity-nav {
+    float: left;
+    position: static;
+    height: 42px;
+  }
+  
+  .quantity-button {
+    position: relative;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity-button.quantity-up {
+    position: absolute;
+    /* height: 50%; */
+    top: 45px;
+    right: 20px;
+  }
+  
+  .quantity-button.quantity-down {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+  /*   height: 50%; */
+  }
+
+  .star-list{
+      li{
+            display: inline-block;
+            &+li{
+            margin-left: -25px;
+        }
+      }
+ }
