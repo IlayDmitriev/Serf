@@ -199,7 +199,7 @@ h3{
   .star-list{
       li{
             display: inline-block;
-            &+li{
+          &+li{
             margin-left: -25px;
         }
       }

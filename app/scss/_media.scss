@@ -1,0 +1,40 @@
+/* @media (max-width: 1440px){
+    
+   .header__aside{
+     width: 100px;
+   }
+   .logo{
+       img{
+           width: 270px;
+       }
+   }
+   .slider-item__info-title{
+     font-size: 70px;
+   }
+}
+   
+  
+@media  (max-width: 1366px) {
+  .header__aside{
+    height: 100%;
+    text-align: left;
+    display: flex;
+    border-right: none;
+    z-index: 5;
+  }
+
+  .menu__list{
+    text-align: center;
+    li{
+    display: inline-block;
+    }
+    a{
+      padding: 15px;
+    }
+  }
+  .header__search{
+    padding: 33px 15px 15px;
+
+
+  }
+} */
